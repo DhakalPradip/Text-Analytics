@@ -411,7 +411,7 @@ DocTermMatTweetsCombined <- tm::removeSparseTerms(
 dim(DocTermMatTweetsCombined)
 ```
 
-Creating a integer matrix equivalent to the document-term matrix.
+Creating integer matrix equivalent to the document-term matrix.
 
 ```{r}
 IntegerMatrixUkraine <- as.matrix(DocTermMatTweetsUkraine)
